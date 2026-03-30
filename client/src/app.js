@@ -292,7 +292,7 @@ function createForm(outerSection) {
     );
 
     // fetch the POST server route
-    fetch("https://pantrypal-server-yyp8.onrender.com/add_item", {
+    fetch("https://week-05-assignment-server-itk9.onrender.com/add_item", {
       // fetch("http://localhost:8080/add_item", {
       method: "POST",
       headers: {
@@ -532,7 +532,7 @@ function populateRows(tbody, data) {
 async function getData() {
   //=========rory// removed unused param
   const response = await fetch(
-    "https://pantrypal-server-yyp8.onrender.com/stock"
+    "https://week-05-assignment-server-itk9.onrender.com/stock"
     // "http://localhost:8080/stock"
   );
   console.log(response);

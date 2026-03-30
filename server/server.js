@@ -17,7 +17,7 @@ app.listen(PORT, function () {
 
 // root route:
 app.get("/", (req, res) => {
-  res.json({ message: "Root route" });
+  res.json({ message: "Welcome to the server, we're happy to serve'ya" });
 });
 
 //TODO: Construct GET route to obtain ALL database data
